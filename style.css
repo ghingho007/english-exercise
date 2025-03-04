@@ -72,7 +72,12 @@ hr {
     text-align: center;
 }
 
-#check-ans {
+.button {
+    display: flex;
+    gap: 15px;
+}
+
+#check-ans, #new-exercises {
     width: 80%;
     max-width: 270px;
     margin-top: 30px;
@@ -87,6 +92,11 @@ hr {
 }
 
 #check-ans:hover {
+    background-color: rgb(224, 218, 200);
+    cursor: pointer;
+}
+
+#new-exercises:hover {
     background-color: rgb(224, 218, 200);
     cursor: pointer;
 }
