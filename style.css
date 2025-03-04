@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 100%;
+    color: black;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+}
+
+.h2-top {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.h2-top- {
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: underline 3px solid black;
+}
+
+.ex-container {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 550px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.part1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.word-1 {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 22px;
+    font-weight: 800;
+    color: crimson;
+}
+
+.answer1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.answer1 input {
+    height: 28px;
+    width: 80%;
+    max-width: 180px;
+    margin-top: 24px;
+    font-size: 18px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#check-ans {
+    width: 80%;
+    max-width: 270px;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    color: crimson;
+    background-color: cornsilk;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#check-ans:hover {
+    background-color: rgb(224, 218, 200);
+    cursor: pointer;
+}
